@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
-
+body{
+  background-color: #3b374c;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card {
+  background: rgb(143, 230, 143);
+  width: 700px;
+  height: 180px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+  border-radius: 50%;
+  background-color: rgb(227, 93, 27);
 }
